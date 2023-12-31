@@ -74,7 +74,7 @@ class Backend_Api:
                     'model'             : request.json['model'], 
                     'messages'          : conversation,
                     'stream'            : True,
-                    'max_tokens'        : 4096 
+                    'max_tokens'        : 2048 
                 },
                 stream  = True
             )
