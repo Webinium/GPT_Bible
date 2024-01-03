@@ -31,7 +31,7 @@ class Backend_Api:
             _conversation = request.json['meta']['content']['conversation']
             prompt = request.json['meta']['content']['parts'][0]
             current_date = datetime.now().strftime("%Y-%m-%d")
-            system_message = 'system_message = """
+            system_message = 'system_message = '
 Nom de l'IA: WebiChat
 Spécialisations: Chrétienté, la Bible, Livres Apocryphes et Pseudépigraphiques
 Capacités linguistiques: Multilingue, avec réponses adaptées à la langue de l'utilisateur
